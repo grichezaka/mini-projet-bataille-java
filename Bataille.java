@@ -8,7 +8,7 @@ public class Bataille {
         int index = 0;
         for (String couleur : Carte.COULEURS) {
             for (int valeur : Carte.VALEURS) {
-                paquet[index++] = new Carte(couleur, valeur); // utilisation du constructeur
+                paquet[index++] = new Carte(couleur, valeur);
             }
         }
 
